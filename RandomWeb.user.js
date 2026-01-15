@@ -2,7 +2,7 @@
 // @name         RandomWeb
 // @namespace    http://tampermonkey.net/
 // @description  Random something in nhentai
-// @version      4.0
+// @version      4.1
 // @match        *://nhentai.net/*
 // @grant        none 
 // ==/UserScript==
@@ -42,7 +42,7 @@
     Object.assign(button.style, {
         position: "fixed",
         left: "20px",
-        bottom: "20px",
+        bottom: "70px",
         zIndex: "99999",
         padding: "10px 15px",
         background: "#1877f2",
@@ -65,7 +65,7 @@
     Object.assign(redoButton.style, {
         position: "fixed",
         left: "20px",
-        bottom: "70px",
+        bottom: "120px",
         zIndex: "99999",
         padding: "10px 15px",
         background: "#1877f2",
@@ -82,7 +82,7 @@
         Object.assign(searchTagButton.style, {
             position: "fixed",
             left: "20px",
-            bottom: "120px",
+            bottom: "170px",
             zIndex: "99999",
             padding: "10px 15px",
             background: "#1877f2",
