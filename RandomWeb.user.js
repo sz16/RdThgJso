@@ -10,7 +10,7 @@
 (function () {
     'use strict';
 
-    const blacklist = ["scat","yaoi","males only","guro" ,"blood", "tentacles","monster","no penetration",];
+    const blacklist = ["scat","yaoi","males only","guro" ,"blood","monster","no penetration",];
 
     // ---- GET SESSION STORAGE
     let history = JSON.parse(sessionStorage.getItem("history")||"[]");
